@@ -1,0 +1,203 @@
+header{
+    background-color: blanchedalmond;
+   animation-name :example;
+   animation-duration: 3s;
+   padding-bottom: 0.09%;
+   text-align: center;
+   
+}
+@keyframes example{
+    from{background-color: blanchedalmond;}
+    to{background-color: cadetblue;}
+}
+.secHead{
+    border-style: ridge;
+}
+a{
+    text-decoration: none; 
+    font-size: 150%;
+    padding: 1%;
+    padding-left: 5%;
+    color:black;
+   padding-right: 3%;
+   border-radius: 10%;
+    padding-bottom: 1%;
+    background-color: grey;
+  
+}
+a:hover{
+    background-color: #e7e7e7;
+}
+.navstyle
+{
+  
+    padding: 2%;
+    padding-left: 5%;
+    padding-bottom: 3%;
+    background-color:black; 
+    padding-top: 3%;
+}
+#div_left{
+    float:left;
+    width:20%;
+   
+}
+#div_right{
+    float: right;
+    width: 20%;
+    border-style: ridge;
+}
+#div_center{
+    
+    float: left;
+    width:50%;
+    height: 55%;
+    
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    border-style: ridge;
+    width: 100%;
+    background-color:grey;
+    color: white;
+    text-align: center;
+    border: grey;
+    display: block;
+}
+.border{
+    border-style: ridge;
+    border-radius: 7%;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.tablestyle{
+    width: 100%;
+    height: 50%;
+    border-radius: 7px;
+    border: 1px solid rgb(49, 3, 3);
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.subButton{
+    background-color: white;
+    width: 25%;
+    height: 65%;
+  color: black;
+  border: 2px solid #e7e7e7;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.subButton:hover{
+    background-color: #e7e7e7;
+}
+.incRow{
+    width:"70%";
+}
+
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 30%;
+    margin-top: 4%;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+    opacity: 0.5;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+
+  * {box-sizing: border-box}
+
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+  }
+  
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Overwrite default styles of hr */
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for the submit/register button */
+  .registerbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    margin-top: 8%;
+  }
+  
+  .registerbtn:hover {
+    opacity:1;
+  }
+  
+  /* Add a blue text color to links */
+  a {
+    color: dodgerblue;
+  }
+  
+  /* Set a grey background color and center the text of the "sign in" section */
+  .signin {
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+  ol li {
+    background: #ffe5e5;
+    padding: 5px;
+    margin-left: 35px;
+
+  }
+  select{
+    height: 6%;
+  }
+  ul li {
+    background: #cce5ff;
+    margin: 5px;
+  }
+  #quizTable{
+       background-color: grey;
+  }
+  #demo{
+    background-color: grey;
+    padding: 2.5%;
+  }
+  .enterbtn{
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    margin-left: 9%;
+    border: none;
+    cursor: pointer;
+    width: 80%;
+    opacity: 0.9;
+    margin-top: 5%;
+  }

@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="CSS/style.css">
+        <script src="JS/scriptfile.js"></script>
+    </head>
+    <body bgcolor=" #f2f2f2">
+        <section>
+        <header class="transition">
+            <h1 style="font-size:70px;" ><center>Live Virtual Class</center></h1>
+        </header>
+        <section >
+        <nav class="navstyle">
+           <center>
+                  <a href="index.html">Home</a> 
+                  <a href="courses.html">All Courses</a> 
+                  <a href="gallery.html">Gallery</a> 
+                  <a href="registration.html">Registration</a>
+                  <a href="Contact.html">Contact Us</a>
+                  <a href="student_result.html">Student Marks</a>
+                  <a href="quiz.html">Quiz</a>
+           </center>
+        </nav>
+        </section>
+        </section>
+
+
+        <section style="padding-top:1.5%;">
+
+         <div id="div_left">
+            <iframe width="80%" height="500" src="https://www.youtube.com/embed/yfoY53QXEnI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         </div>
+
+         <div id="div_center" class="border">
+            
+                <ol>
+                <li>Java</li>
+                <li>SQL</li>
+                <li>Python</li>
+                </ol>
+
+                <select id="s2" onchange="myFunction()">
+                    <option value="Java">Java</option>
+                    <option value="Sql">Sql</option>
+                    <option value="Python">Python</option>
+                </select>
+            
+                <textarea rows="3" cols="20"  id="textar"> </textarea>
+                <br>
+                <br>
+                <input type="button" onclick="myPrompt()" value="enter Favourite course" class="enterbtn"></input>
+                <br>
+                <p id="demo"></p>
+                <h4>select atleast 2 courses</h4>
+                <form name="f4">
+                <input type="checkbox" id="op11" value="Angular"> Angular <br>
+                <input type="checkbox" id="op22" value="Java"> Java<br>
+                <input type="checkbox" id="op33" value="Python" > Python<br>
+                <input type="button" value="submit" onclick="checkboxVal()">
+                </form>
+        </div>
+
+         <div id="div_right">
+           <img src="Assets/add.jpg">
+         </div>
+        </section>
+        
+       
+        <footer >
+            <p>Posted by: Hege Refsnes</p>
+            <p>Contact information: <a href="mailto:someone@example.com">someone@example.com</a></p>
+        </footer>
+    
+    </body>
+</html>
